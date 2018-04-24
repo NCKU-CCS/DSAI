@@ -11,7 +11,7 @@ Simple example code of small grid world in chapter 4 (Dynamic Programming) of An
 |------------- |-------------| -----|------|
 |W,H|`integer`|`int,int`|Width,Height of gridworld|
 |END|`set(tuple)`|`{(int,int)}`|End point of gridworld|
-|REWARD|`integer`|`int`/`float`|Reward for every transition step|
+|REWARD|`integer/float`|`int`/`float`|Reward for every transition step|
 
 ----
 ## Reference
