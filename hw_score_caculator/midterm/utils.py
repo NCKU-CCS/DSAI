@@ -2,7 +2,7 @@ import csv
 import json
 
 FINAL_DATE = 23
-DISCOUNT = 0.936
+DISCOUNT = 0.93
 
 
 def getStudentsIndex(studentsFilePath):
@@ -29,18 +29,20 @@ def log(date, todayScore, todayWeight, weightScore):
     print('4/' + str(date) + ': ' + str(todayScore) +
           ' - ' + str(todayWeight) +
           ' - ' + str(weightScore)
-          )
+    )
 
 
 def getScore(index, rankData):
     for team in rankData['rank']:
         if (team['team_name'] in index):
-            print('\n\n' + team['team_name'] + ' - ' +
-                  index[team['team_name']]['name'])
+            print('\n\n' +
+                  team['team_name'] + ' - ' +
+                  index[team['team_name']]['name']
+            )
             total = 0.0
             for date in range(3, FINAL_DATE+1, 1):
                 todayScore = float(team['A2018_4_' + str(date)])
-                todayWeight = float((DISCOUNT**(24-date)))
+                todayWeight = float((DISCOUNT**(23-date)))
                 todayWeightScore = todayScore * todayWeight
 
                 log(date, todayScore, todayWeight, todayWeightScore)
@@ -48,7 +50,8 @@ def getScore(index, rankData):
 
             finalScore = total / (FINAL_DATE-2)
 
-            print ('Total: ' + str(total) + ' - Score: ' + str(finalScore))
+            print('Total: ' + str(total) + ' - Score: ' + str(finalScore))
+            index[team['team_name']]['total'] = total
             index[team['team_name']]['score'] = finalScore
 
     return index
@@ -56,7 +59,7 @@ def getScore(index, rankData):
 
 def writeScore(outputPath, score):
     with open(outputPath, 'w') as output:
-        output.write('teamName,name,email,score\n')
+        output.write('teamName,name,id,email,total,score\n')
         for student in score:
             output.write(student)
             output.write(',')
@@ -66,6 +69,8 @@ def writeScore(outputPath, score):
             output.write(',')
             output.write(score[student]['email'])
             if ('score' in score[student]):
+                output.write(',')
+                output.write(str(score[student]['total']))
                 output.write(',')
                 output.write(str(score[student]['score']))
             output.write('\n')
