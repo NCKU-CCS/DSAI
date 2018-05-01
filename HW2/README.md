@@ -11,3 +11,10 @@ These sub-directories will contains following file:
 1. `source<no>.txt`: Source file of Chinese New Title
 2. `query<no>.txt`: Query for corresponding source file
 3. `ans<no>.txt`: Answer for corresponding query in an ascending order
+
+----
+## Run
+Run your own program(main.py) by using following command
+`python3 main.py --source source<no>.txt --query query<no>.txt --output output<no>.txt`
+Compare the difference between your output file and answer file
+`diff output<no>.txt ans<no>.txt`
