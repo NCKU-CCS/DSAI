@@ -14,7 +14,8 @@ These sub-directories will contains following file:
 
 ----
 ## Run
-Run your own program(main.py) by using following command
+Run your own program(main.py) to produce output file by using following command
 `python3 main.py --source source<no>.txt --query query<no>.txt --output output<no>.txt`
+
 Compare the difference between your output file and answer file
 `diff output<no>.txt ans<no>.txt`
