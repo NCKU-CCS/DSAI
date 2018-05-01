@@ -1,0 +1,100 @@
+川普 and 美國
+母親節 and 禮物
+台灣 and GDP
+MLB and 失投
+NBA and 大三元
+台灣 and 足球
+安全 and 以色列
+歐洲 and 網路
+台灣 and 蓮霧
+特斯拉 or 賓士
+特斯拉 and 電動車
+台電 and 夏季
+台電 not 夏季
+明星 and 台灣
+NBA and 全明星
+三星 and 愚人節
+三星 and 愚人節 and 投資
+三星 or 投資
+兔子 and 真人 and 動畫
+兔子 and 動畫
+北韓 and 南韓
+南韓 and 北韓
+南韓 or 北韓
+南韓 not 北韓
+北韓 not 南韓
+台灣 and 中共
+職棒 and 守護神
+北韓 and 試射
+北韓 or 試射
+黃蜂 and 蘋果
+蘋果 or 黃蜂
+蘋果 not 黃蜂 not NBA
+聰明 and 動物 and 鸚鵡
+鸚鵡 and 聰明
+鸚鵡 or 聰明
+鸚鵡 not 聰明
+世界 and 和平
+料理 and 台灣
+料理 and 美味
+料理 or 美味
+健身 or 運動
+健身 not 運動
+健身 and 減肥
+健身 not 減肥
+中共 and 台灣 and 不滿
+中共 and 不滿
+台灣 and 玩具
+進口 and 玩具
+玩具 or 出口
+進口 not 出口
+出口 not 進口
+進口 and 出口
+進口 or 出口
+進口 and 台灣
+美國 and 出口 and 台灣
+美國 and 台灣 and 進口 and 中共 and 出口
+美國 or 台灣 or 進口 or 出口
+美國 not 台灣 not 進口 not 出口
+上帝 and 基督教
+女友 and 右手
+台北 and NBA
+台北 and 運動
+桃園 and 機場 and 漏水
+機場 and 漏水
+機場 not 桃園 not 漏水
+Google and 大會 and 舉辦
+Google not 美國
+Google and 台灣
+中共 and 民主 and 台灣
+中共 or 民主
+台灣 and 民主
+市長 and 服務
+世界 and 生涯
+比賽 and 生涯
+集團 and 犯罪
+美國 and 犯罪 and 集團
+美國 not 經濟
+犯罪 not 集團
+火山 and 爆發
+台灣 and 火山
+台灣 and 爆發
+太平洋 and 火山
+太平洋 and 火山 and 爆發
+火山 and 地震
+法國 and 麵包
+NBA and 法國
+台灣 and 良心
+鮮奶 and 良心
+失分 and 失敗
+成功 or 失敗
+失分 and 勝利
+亞太 and 會議
+博物館 and 恐龍
+台灣 and 聯合國
+台灣 and 加入
+台灣 and 建國
+歌手 and 引退
+歌手 or 明星 or 演藝圈
+春天 or 夏天 or 秋天 or 冬天
+壓力 and 中醫
